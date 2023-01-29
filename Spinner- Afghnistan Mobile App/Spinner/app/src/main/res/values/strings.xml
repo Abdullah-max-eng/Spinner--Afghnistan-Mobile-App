@@ -1,0 +1,37 @@
+<resources>
+
+
+    <string name="app_name">Spinner</string>
+
+
+    <string-array name="AfgProvinces">
+        <item>Select a Province</item>
+        <item>Kabul The Capital</item>
+        <item>Kandahar</item>
+        <item>Herat</item>
+        <item>Balkh</item>
+        <item>Kunduz</item>
+        <item>Ghazni</item>
+        <item>Bamyan</item>
+        <item>LBaghlan</item>
+        <item>Farah</item>
+
+        <item>Khost</item>
+        <item>Helman</item>
+        <item>Laghman</item>
+        <item>Faryab</item>
+        <item>Nangarhar</item>
+        <item>Samangan</item>
+        <item>Badakhshan</item>
+        <item>Jowzjan</item>
+        <item>Logar</item>
+        <item>Ghor</item>
+        <item>Dykundi</item>
+        <item>Panjsheer</item>
+        <item>Pakteeka</item>
+        <item>Kapisa</item>
+        <item>Takhar</item>
+
+
+    </string-array>
+</resources>

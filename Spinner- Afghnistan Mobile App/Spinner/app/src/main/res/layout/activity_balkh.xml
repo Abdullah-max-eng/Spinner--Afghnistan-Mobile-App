@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Kabul">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Balkh"
+                android:textSize="32dp"
+                android:textStyle="bold"
+
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:text="Balkh (Pashto / Dari: بلخ, Balx) is one of the 34 provinces of Afghanistan, located in the north of the country. It is divided into 15 districts and has a population of about 1,509,183, which is multi-ethnic and mostly a Persian -speaking society. The city of Mazar-i-Sharif serves as the capital of the province."
+                />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/balkhmap">
+            </ImageView>
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="32dp"
+                android:textStyle="bold"
+                android:text="Tradition"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:text="The locals of Balkh take great pride in their sporting history and culture. Every Nowruz (Persian New Year), Balkh is the site of many sporting events. Buzkashi is a traditional horse riding sport"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="32dp"
+                android:text="Estimated Population"
+                android:textStyle="bold"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:text="1,509,183 (2020)"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="32dp"
+                android:textStyle="bold"
+                android:text="Famous Places"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22dp"
+                android:text="1. Blue Mosque.
+2. Green Mosque.
+3. Buzkashi Stadium.
+4. Khost Mosque."
+                />
+
+            <GridLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:rowCount="4"
+                android:rowOrderPreserved="true"
+                android:columnCount="1"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="250dp"
+                    android:src="@drawable/balkh1"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginBottom="100px">
+
+                </ImageView>
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="250dp"
+                    android:src="@drawable/balkh2"
+
+
+                    android:layout_marginBottom="100px">
+                </ImageView>
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="250dp"
+                    android:src="@drawable/balkh3"
+                    android:layout_marginBottom="100px">
+                </ImageView>
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="250dp"
+                    android:src="@drawable/balkh5"
+                    android:layout_marginBottom="100px">
+                </ImageView>
+
+
+
+
+            </GridLayout>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>
+
